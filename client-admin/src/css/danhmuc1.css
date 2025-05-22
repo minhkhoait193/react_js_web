@@ -1,0 +1,42 @@
+
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: calc(100% - 12px);
+    padding: 10px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .action-button {
+    flex: 1;
+    margin-right: 10px;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .add-button {
+    background-color: #4CAF50;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+  }
+  
+  .edit-button {
+    background-color: #337ab7;
+  }
